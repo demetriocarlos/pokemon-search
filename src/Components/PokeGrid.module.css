@@ -1,0 +1,54 @@
+
+ 
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('pokemon-solid.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Pikachu';
+    src: url('pikachu.ttf') format('truetype');
+  }
+
+body{
+    background-color: #e5e5e5;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 0.3rem;
+    /*font-family: 'Pokemon', sans-serif;
+    font-size: 48px;
+    color: #ffcb05;
+    text-shadow: 2px 2px #000000;*/
+    font-size: 38px;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  background-image: url('pokeball.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5px;
+
+    
+}
+ 
+.error{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.grilla{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fill, 230px) ;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;*/
+
+    display: flex;
+    justify-content: center;
+     
+     
+}
+ 
